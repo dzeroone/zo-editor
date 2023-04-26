@@ -23,7 +23,6 @@ const editor = new EditorJS({
   },
   onChange: async () => {
     await editor.isReady;
-    console.log('rrr c')
     editor.save().then((data) => {
       preview.render(data)
     })
