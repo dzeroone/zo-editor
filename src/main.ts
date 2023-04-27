@@ -1,6 +1,5 @@
 import './style.css'
 import EditorJS, { OutputData } from '@editorjs/editorjs';
-// @ts-ignore
 import Header from '@editorjs/header';
 
 const SAVE_KEY = 'editor-data'
